@@ -19,7 +19,7 @@ def sum_number_pairs(input_file, output_filename):
                 total = float(operands[0]) + float(operands[1])
                 new_line = '{0} {1}\n'.format(number_pair, total)
                 output_file.write(new_line)
-    #if __name__ == '__main__':
-        #import doctest
-        #doctest.testmod()(verbose = True)
-                #the doctest refuses to work and cannot figure out the work around
+#if __name__ == '__main__':
+    #import doctest
+    #doctest.testmod()(verbose = True)
+            #the doctest refuses to work and cannot figure out the work around
